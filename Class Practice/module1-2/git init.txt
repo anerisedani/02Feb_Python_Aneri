@@ -1,0 +1,185 @@
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/anerisedani/02Feb_Python_Aneri.git
+git push -u origin main
+
+git add .
+git commit -m "first commit"
+git push -u origin master
+
+--> 18/02
+
+print("Hello World!")
+print('Hello World!')
+print('''hello world!
+      continues
+      the broken line''')
+#esacpe funtcion
+print("hello \'python'!")
+print('hello \"python"!')
+print("hello \npython!")
+print("\thello python!")
+print("hel\blo \bpython!")
+
+#end function
+#seperate function
+#comment function
+
+#variable is a name which can store a value
+#number=15
+#cannot be started with a num or a special symbol
+
+a=15
+b=6
+print("add:",a+b)
+print("sub:",a-b)
+print("mul:",a*b)
+print("div:",a/b)
+
+#r is used for the raw string ; as it is statement would be the answer
+#type method
+#casting converts the data type into another data type
+
+a=input("enter value of a =")
+b=input("enter value of b=")
+print("sum:",int(a)+int(b))
+
+#input function
+#split function
+
+-->20/02
+
+#format function
+#operators
+#1.assignment operator
+#2.logical operator
+
+sub1 = float(input("Enter marks of Subject 1 (out of 100): "))
+sub2 = float(input("Enter marks of Subject 2 (out of 100): "))
+sub3 = float(input("Enter marks of Subject 3 (out of 100): "))
+sub4 = float(input("Enter marks of Subject 4 (out of 100): "))
+
+# Calculate total
+total = sub1 + sub2 + sub3 + sub4
+
+# Calculate percentage
+percentage = total / 4
+
+# Decide grade
+if percentage >= 70:
+    grade = "A"
+elif percentage >= 60:
+    grade = "B"
+elif percentage >= 50:
+    grade = "C"
+elif percentage >= 40:
+    grade = "D"
+else:
+    grade = "Fail"
+
+#print result
+print("\n----- Marksheet -----")
+print("Total Marks:", total)
+print("Percentage:", percentage, "%")
+print("Grade:", grade)
+
+if grade == "Fail":
+    print("Result: You have Failed")
+else:
+    print("Result: You have Passed")
+
+--> 23/02
+
+looping statements
+
+WHILE LOOP:
+ex:1 - i=1 #iniliatization
+         while i<=10:
+         print(i)
+         i+=1 #result will be the numbers from 1 to 10
+FOR LOOP:
+ex:1 - for i in range(11):
+        print(i)
+
+ex:2 - for i in range(1,11):
+        print(i)
+        
+#range function
+
+ex:3 - Print odd numbers from 1 to 10
+        for i in range(1, 11, 2):
+        print(i)
+
+ex:4 - If you want to print numbers from 10 to 1:
+           for i in range(10, 0, -1):
+            print(i)
+
+TASK : print the table of any number by user input using both the loops for and while
+
+1.Table using for loop
+num = int(input("Enter a number: "))
+for i in range(1, 11):
+    print(num, "x", i, "=", num * i)
+
+2.Table using while loop
+num = int(input("Enter a number: "))
+i = 1
+while i <= 10:
+    print(num, "x", i, "=", num * i)
+    i = i + 1
+
+NESTED FOR LOOP with PATTERN:
+  A Right Triangle Star Pattern using Nested For Loop.
+             for i in range(1, 6):      # Outer loop (rows)
+               for j in range(i):     # Inner loop (stars)
+                   print("*", end="")
+                      print()                # Move to next line
+  A Number Pattern using Nested For Loop.
+          for i in range(1, 6):        # Outer loop (rows)
+               for j in range(i):       # Inner loop (print number)
+                  print(i, end="")
+                    print()                  # Move to next line
+-->24/02
+
+#control statements
+\break continue pass commands
+continue=skip the number
+
+#string function
+slicing
+string length
+
+string methods:
+1.strip
+2.lower
+3.upper
+4.replace
+5.split-substring
+
+#string concatenation
+#string format
+#string capitalize
+#string casefold
+#string count
+#string endswith
+#string startswith
+#string find-index
+#string isalnum - is alpha numeric
+#string isdigit
+#string islower
+#string isupper
+#string isalpha
+#string title
+
+--------------module 1 finished - core python's first part-------------------------
+now should be started with collection type topic
+
+--> 25/02
+
+Python collection type
+1.list
+2.tuple
+3.set 
+4.dict
