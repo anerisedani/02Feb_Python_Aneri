@@ -1,0 +1,10 @@
+Learning Python file handlingid:101.
+name:a
+id:102
+name:n
+id:103
+name:e
+id:104
+name:
+id:r
+name:i
