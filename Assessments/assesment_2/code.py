@@ -35,7 +35,6 @@ def save_post():
         messagebox.showinfo("Success", "Post Saved Successfully!")
         load_posts()
 
-        # Clear fields
         entry_title.delete(0, END)
         text_content.delete("1.0", END)
 
@@ -69,7 +68,6 @@ root = Tk()
 root.title("MiniBlog App")
 root.geometry("500x500")
 
-# Labels & Inputs
 Label(root, text="Name").pack()
 entry_name = Entry(root)
 entry_name.pack()
