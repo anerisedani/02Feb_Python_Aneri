@@ -1,0 +1,41 @@
+TITLE: MiniBlog Desktop Application using Tkinter
+
+AIM:
+To develop a desktop-based MiniBlog application using Python and Tkinter that allows users to create, save, and view blog posts using file handling.
+
+THEORY:
+The MiniBlog application is built using the following concepts:
+1. Tkinter GUI
+Used to create graphical interface
+Widgets used: Label, Entry, Text, Button, Listbox
+2. File Handling
+Used to store blog posts in .txt files
+Files are saved using format: username_title.txt
+3. Classes & Objects
+User class → stores user information
+Post class → stores blog post details
+4. Exception Handling
+Used to handle errors like: Empty fields, File not found
+
+Inputs:
+Name
+Title
+Content
+
+Outputs:
+Save post to file
+View saved posts
+
+User enters:
+Name
+Title
+Content
+Clicks Save Post
+
+File gets saved as:
+username_title.txt
+
+User can:
+Select file from listbox
+Click "View Selected Post"
+Content appears in textbox
