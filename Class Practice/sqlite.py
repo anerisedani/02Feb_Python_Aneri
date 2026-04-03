@@ -7,5 +7,3 @@ print("database connected!")
 create_tbl="create table studinfo(id integer primary key autoincrement, name text, city text)"
 db.execute(create_tbl)
 print("table created")
-
-#insert data
